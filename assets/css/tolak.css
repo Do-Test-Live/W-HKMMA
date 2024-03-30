@@ -2892,8 +2892,8 @@ h6 {
 }
 
 .footer-widget {
-  margin-top: 78px;
-  margin-bottom: 79px;
+  margin-top: 45px;
+  margin-bottom: 0;
 }
 @media (max-width: 991px) {
   .footer-widget {
@@ -2908,9 +2908,7 @@ h6 {
 }
 .footer-widget--about {
   position: relative;
-  margin: -115px 0 0;
   padding: 0;
-  max-width: 327px;
   background-color: var(--tolak-black4, #1b272a);
   border-radius: 6px 6px 0 0;
 }
@@ -3036,7 +3034,6 @@ h6 {
   display: flex;
   align-items: center;
   margin-bottom: 23px;
-  max-width: 270px;
 }
 .footer-widget__posts__image {
   flex-shrink: 0;
@@ -12344,7 +12341,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .main-slider-one__social {
   position: absolute;
-  left: -103px;
+  left: -70px;
   top: 0;
   bottom: 0;
   margin: auto;
@@ -13393,7 +13390,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   z-index: 2;
   background-color: var(--tolak-white, #fff);
-  padding: 80px 0 110px;
+  padding: 80px 0 0;
 }
 @media (max-width: 767px) {
   .feature-one {
@@ -13437,6 +13434,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: auto;
   padding: 51px 25px 51px;
   transition: 500ms ease;
+  height: 600px;
 }
 .feature-one__item:hover {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.13);
@@ -13521,8 +13519,8 @@ body.megamenu-popup-active .mobile-nav__content {
 .feature-one__item__year {
   margin: 0 auto;
   position: relative;
-  width: 121px;
-  height: 33px;
+  width: 160px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
